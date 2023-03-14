@@ -1,1 +1,116 @@
 
+#!/usr/bin/env python
+# coding: utf-8
+
+# # Class 2
+# 
+# * help
+#     * help function()
+#     * function?
+#     * function??
+#     * ?function
+#     * ??function
+#     
+# * print
+#     * value
+#     * sep
+#     * end
+#     
+# * variable
+#     * string
+#         * starts and ends with double quotes ""
+#         * "Muhammad Bilal Hamid"
+#         * ``` start with **"** and end with **"** ``` **single line string**
+#         * **"Muhammad Bilal Hamid"**
+#         
+#         * ``` start with **'** and end with **'** ``` **single line string**
+#         * **'Muhammad Bilal Hamid'**
+#         
+#         * ``` start with **"""** and end with **"""** ``` **Muti line string**
+#         * **"""Muhammad Bilal Hamid"""**
+#         
+#         * ``` start with **'''** and end with **'''** ``` **Muti line string**
+#         * **'''Muhammad Bilal Hamid'''**
+#         
+#         
+#     *numbers
+#         *int
+#         *float
+#         
+#     
+#     
+
+# In[2]:
+
+
+help(print)
+
+
+# In[ ]:
+
+
+# press shift+tab
+print()
+
+
+# In[3]:
+
+
+get_ipython().run_line_magic('pinfo', 'print')
+
+
+# In[4]:
+
+
+get_ipython().run_line_magic('pinfo2', 'print')
+
+
+# # pass values in print
+
+# In[ ]:
+
+
+print("A","B","C","D")
+
+
+# In[8]:
+
+
+print("A","B","C","D",sep="**")
+
+
+# In[16]:
+
+
+print("Line1",end='>>>')
+print("Line2",end='>>>')
+print("Line3",end='>>>')
+
+
+# In[24]:
+
+
+# variables
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F390898442631101606%2F%3Famp_client_id%3DCLIENT_ID%2528_%2529%26mweb_unauth_id%3D%257B%257Bdefault.session%257D%257D%26amp_url%3Dhttps%253A%252F%252Fin.pinterest.com%252Famp%252Fpin%252F390898442631101606%252F%26open_share%3Dt&psig=AOvVaw3G2VMpdKfo58fO__rRS4-q&ust=1678895293487000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCODR9r7i2_0CFQAAAAAdAAAAABAJ"/>
+
+
+# In[ ]:
+
+
+
+
+
+# In[21]:
+
+
+a=10
+b=20
+name='bilal'
+print(name,a,b)
+
+
+# In[ ]:
+
+
+
+
